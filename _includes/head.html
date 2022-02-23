@@ -10,6 +10,11 @@
   {%- endif -%}
 
   {%- include custom-head.html -%}
+  
+  <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+  
+  
   <!--  For Mathjax LaTeX support  -->
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
