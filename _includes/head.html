@@ -14,7 +14,19 @@
   <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
   
-  
-  <!--  For Mathjax LaTeX support  -->
+   <!--   In-line latex   -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    
+    <!--  For Mathjax LaTeX support  -->
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+  
+ 
 </head>
