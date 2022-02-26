@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Gradients and linear approximations" 
+categories: misc 
+---
+
+
 ## Chapter 11 Notes 
 
 
