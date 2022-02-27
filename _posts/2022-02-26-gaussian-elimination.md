@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Gaussian elimination and more linear algebra" 
+categories: misc 
+---
+
+
 #  🪃 Lay's Linear Algebra textbook notes 
 
 
